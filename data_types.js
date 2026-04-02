@@ -65,12 +65,12 @@ console.log(typeof(symbol_1))
 // Array Datatype
 
 let arr =new Array (10,20,30,40,50)
-console.log(arr)                       // 50 is sorted
+console.log(arr)                       
 console.log(typeof(arr));
 
 let array = [10,20,30,40,50]
 console.log(array)                   
-console.log(typeof(array))           // type of array is array but showed as object 
+console.log(typeof(array))           
 
 
 let array_2= ['Apple','Banana','pear','Guava'];
