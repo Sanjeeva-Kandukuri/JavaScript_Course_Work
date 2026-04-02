@@ -3,7 +3,7 @@
 let value = " Python Full Stack "
 console.log(value.toLowerCase());
 console.log(value.toUpperCase());
-console.log(value.trimEnd());      // end , start,
+console.log(value.trimEnd());      
 // console.log(value.trim());
 console.log(value.replace('Python', 'Java'));
 console.log(value.indexOf('Stack'));
@@ -19,7 +19,7 @@ console.log(value.repeat(5));
 let greet = 'Hi';
 
 
- let palindrome =  'madam';                                  // join, reverse, split
+ let palindrome =  'madam';                                  
  let result = palindrome.split("").reverse().join("");
 console.log(result);
 
@@ -63,7 +63,7 @@ console.log(date);
 console.log(date.getDate());
 console.log(date.getDay());
 console.log(date.getFullYear());
-console.log(date.getMonth() +1)    // +1 optional
+console.log(date.getMonth() +1)    
 console.log(date.getHours())
 console.log(date.getMinutes())
 console.log(date.getSeconds())
