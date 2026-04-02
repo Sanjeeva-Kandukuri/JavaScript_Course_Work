@@ -1,10 +1,10 @@
 let text = "Hello Welcome To JavaScript" ;
-let pattern = /welcome/i;                               // i => it removes the case sensitive  'removes uppercases'
+let pattern = /welcome/i;                               
 console.log(pattern.test(text));
 
 
 let value = "cat cat cat" ;
-let result = value.replace(/cat/g, 'dog');            // g global
+let result = value.replace(/cat/g, 'dog');            
 console.log(result)
 
 let match = value.match(/at/g);
@@ -28,7 +28,7 @@ let regExp = new RegExp("Hello Morning")
 console.log(regExp);
 
 let email = 'dhanya12@gmail.com'
-let email_RegExp = /^[a-z 0-9]+@gmail+\.(com|in)$/;      // instead gmail we can use [a-z]   i 2 minimum characatrs 2,3 min and maxi
+let email_RegExp = /^[a-z 0-9]+@gmail+\.(com|in)$/;      
 console.log(email_RegExp.test(email))
 
 
