@@ -1,7 +1,7 @@
 // let greet = "Hello Good Evening"
 
                                        
-// console.log(greet)                           // global scope we can use inside and outside 
+// console.log(greet)                           
 
 // function add(){
 //     console.log("Satish", greet)
@@ -19,7 +19,7 @@
 
 
 // if(true){
-//     var value = "Black Scope"     // let var global scope ==>  const
+//     var value = "Black Scope"     
 //     console.log(value)
 // }
 // console.log(value);
