@@ -8,19 +8,19 @@ console.log(fruits);
 console.log(fruits[1]);
 
 
-fruits.push("Musk Melon");      // array methods , push, pop, shift, unshift
+fruits.push("Musk Melon");      
 console.log(fruits);
 
-fruits.pop("Mango");      // last element remove
+fruits.pop("Mango");      
 console.log(fruits);
 
-fruits.shift("Mango");     // first element add
+fruits.shift("Mango");  
 console.log(fruits);
 
-fruits.shift("Mango");     // first element remove
+fruits.shift("Mango");    
 console.log(fruits);
 
-fruits.unshift("Mango");   // last element add
+fruits.unshift("Mango");   
 console.log(fruits);
 
 
@@ -28,15 +28,15 @@ console.log(fruits);
 // fruits.splice(1, 2);
 // console.log(fruits);
 
-fruits.splice(1,2);        // del elements
+fruits.splice(1,2);        
 console.log(fruits);
 
 
-fruits.splice(1, 0, 'water Melon');  // add
+fruits.splice(1, 0, 'water Melon');  
 console.log(fruits);
 
 
-let result = fruits.slice(1, 3);   // read
+let result = fruits.slice(1, 3);   
 console.log(result)
 
 
