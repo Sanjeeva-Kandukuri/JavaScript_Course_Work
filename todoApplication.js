@@ -57,7 +57,7 @@ function createTodo(todo){ //todo -- parameter
 //striking and unstrking the text
     complete.addEventListener("click", () =>{
         todo.completed = !todo.completed
-        span.classList.toggle("completed"); //toggle -- switch true to false or false to true
+        span.classList.toggle("completed"); 
     })
 
 
