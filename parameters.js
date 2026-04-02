@@ -3,7 +3,7 @@ function sum(a=15, b=25){       // default parameters
     console.log(a + b)
 }
 
-sum(12)      // NaN is the number data type , function declaration is called parameter and function calling is called arguments ==>other wise undefined
+sum(12)      
 
 
 
@@ -23,13 +23,13 @@ const greeting = () => {
 greeting()
 
 
-const sum_val = x => x * x;           // single parameter
+const sum_val = x => x * x;           
 console.log(sum_val(10)) 
 
-const parm_val = (x, y) => {          // multiple parameter
+const parm_val = (x, y) => {          
     return (x/y);
 
-}                                      // ES 6 module introduced 2015
+}                                      
 console.log(parm_val(15, 5));
 
 
