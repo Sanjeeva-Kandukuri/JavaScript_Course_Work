@@ -1,39 +1,37 @@
-// for(let i=1 ; i <=5; i++){
-//     console.log("Number:", i)
-// }
+for(let i=1 ; i <=5; i++){
+console.log("Number:", i)
+}
 
-// for(let i=10; i >= 1; i--){
-//     console.log("Decrement:", i)
-// }
+for(let i=10; i >= 1; i--){
+console.log("Decrement:", i)
+}
 
-// let j = 1;
-// while(j<=6){
-//     console.log("While:", j)
-//     j++
-// }
+let j = 1;
+while(j<=6){
+console.log("While:", j)
+}
 
-// let k = 8;
-// do {
-//     console.log("Do While:", k)
-//     k--
-// }
-// while(k >= 1)
+let k = 8;
+do {
+    console.log("Do While:", k)
+ }
+ while(k >= 1)
 
 
-// for(let e=1; e <=4; e++){
-//     if(e === 3){
-//         break
-//     }
-//     console.log("Break:", e)
-// }
+ for(let e=1; e <=4; e++){
+     if(e === 3){
+        break
+     }
+     console.log("Break:", e)
+ }
 
 
-// for(let i=1; i<=5; i++){
-//     if(i===4){
-//         continue
-//     }
-//     console.log("Continue:", i)
-// }
+ for(let i=1; i<=5; i++){
+     if(i===4){
+         continue
+     }
+     console.log("Continue:", i)
+ }
 
 
 for(let i=1; i<=4; i++){
