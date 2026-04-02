@@ -1,42 +1,41 @@
-// let greet = "Hello Good Evening"
+ let greet = "Hello Good Evening"
 
                                        
-// console.log(greet)                           
+ console.log(greet)                           
 
-// function add(){
-//     console.log("Satish", greet)
-
-
-// }
-// add();
-
-// function localScope(){
-//     let name = "Local Scope"
-//     console.log(name);
-// }
-// localScope();
-// console.log();   //console.log(name);
+ function add(){
+     console.log("Satish", greet)
 
 
-// if(true){
-//     var value = "Black Scope"     
-//     console.log(value)
-// }
-// console.log(value);
+ }
+ add();
+
+ function localScope(){
+     let name = "Local Scope"
+     console.log(name);
+ }
+ localScope();/ console.log();   
 
 
-// function outer(){
-//     let value_col = "Clouser's will work"
-//     function inner(){
-//             console.log(value_col)
+ if(true){
+     var value = "Black Scope"     
+     console.log(value)
+ }
+ console.log(value);
+
+
+ function outer(){
+     let value_col = "Clouser's will work"
+     function inner(){
+             console.log(value_col)
         
-//     }
-//     return inner();
-// }
+     }
+     return inner();
+ }
 
-// outer();
+ outer();
 
-// IIFE functions
+ IIFE functions
 
 (function(){
     console.log("Immediately Invoked function Expression")
