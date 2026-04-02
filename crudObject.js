@@ -39,7 +39,7 @@ let updatedStudent = [{
     place : "Guntur",
     company : "Sai groups",
     greet : function(){
-        console.log("Hello", this.name)       // this or object we can use both 
+        console.log("Hello", this.name)       
     }
 
 }]
@@ -52,14 +52,14 @@ console.log(updatedStudent);
 updatedStudent[0].greet();
 outerFunction.call(updatedStudent[0]);
 outerFunction.apply(updatedStudent[0]);
-let value = outerFunction.bind(updatedStudent[0]);       // apply = add, call = calling         bind= upadated student values perform
+let value = outerFunction.bind(updatedStudent[0]);       
 
-value();                                                  // dot. notation is common except create
+value();                                                  
 
 
 console.log(Object.keys(student));
 console.log(Object.values(student));
-console.log(Object.entries(student));   // changing ibject to array of each and individual array's
+console.log(Object.entries(student));   
 
 console.log('age' in student);
 
