@@ -1,7 +1,3 @@
-// we use this topic in react 
-
-// props i react
-
 // obect destructuring 
 
 
@@ -50,7 +46,7 @@ greet("Dhanya",90,80,70);
 
 let arr_1 = [1,2,3,4,5,5,3,4]
 let arr_2 = [6,7,8,9,10,9,6,8]
-console.log([...arr_1, ...arr_2]);                 // + (arr_1 + arr_2), (...arr_1, ...arr_2),([...arr_1, ...arr_2])
-console.log([... new Set([...arr_1, ...arr_2])]);            // (new Set([...arr_1, ...arr_2]));
+console.log([...arr_1, ...arr_2]);                 
+console.log([... new Set([...arr_1, ...arr_2])]);            
 
-console.log({...student,place:'Guntur'});                              // (student,{place:'Guntur'});
+console.log({...student,place:'Guntur'});                              
