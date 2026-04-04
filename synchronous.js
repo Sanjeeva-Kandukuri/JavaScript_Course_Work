@@ -1,8 +1,8 @@
-// synchronous , definition: if any occurs in program it will effect to the entire program
+// synchronous 
 
 console.log('First');
 console.log('Second');
-console.log('Third');    //lo.('Third)
+console.log('Third');    
 console.log('Fourth');
 console.log('Fifth');
 
@@ -12,14 +12,11 @@ console.log('Fifth');
 
 console.log('One');
 console.log('Two');
-setTimeout(()=>{              // ananymous function ()
+setTimeout(()=>{              
     console.log('Three')
-}, 1000);                      // 1sec
+}, 1000);                      
 console.log('Four');
 console.log('Five');
-
-
-// what is the difference between synchronous and asynchronous function ?
 
 
 // set tags
