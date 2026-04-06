@@ -45,12 +45,3 @@ function division(e, f){
 calculation(20, 40, add);
 calculation(20, 50, subtract);
 calculation(12, 6, division);
-
-
-
-
-// function payment(){
-//     console.log("Payment Successful")
-// }
-
-// payment();
