@@ -1,0 +1,32 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Alice",
+      "age": 23
+    },
+    {
+      "name": "Sanjeeva",
+      "id": "2",
+      "age": "25"
+    },
+    {
+      "id": "3",
+      "name": "Charlie",
+      "age": 24
+    }
+  ],
+  "courses": [
+    {
+      "id": "101",
+      "title": "Mathematics",
+      "instructor": "Dr. Smith"
+    },
+    {
+      "id": "102",
+      "title": "Physics",
+      "Instructor": "Dr. Johnson"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
